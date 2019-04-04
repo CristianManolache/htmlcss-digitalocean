@@ -1,3 +1,4 @@
+/* General Settings */
 .mt-20 {
   margin-top: 20px;
 }
@@ -10,9 +11,19 @@
 .ml-20 {
   margin-left: 20px;
 }
+.blue {
+  margin: 0;
+  padding: 60px;
+}
 /* NAV BAR */
 .navbar {
   background-color: white;
   margin-bottom: 0;
 }
 /* SubHeader */
+.blue {
+  background-image: url("img/backgroundsubheader.jpg");
+}
+.form-group {
+  padding: 0;
+}
