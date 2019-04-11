@@ -11,9 +11,15 @@
 .ml-20 {
   margin-left: 20px;
 }
+.mr-20 {
+  margin-right: 20px;
+}
 .blue {
   margin: 0;
-  padding: 60px;
+  padding: 60px 30px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 /* NAV BAR */
 .navbar {
@@ -22,8 +28,71 @@
 }
 /* SubHeader */
 .blue {
-  background-image: url("img/backgroundsubheader.jpg");
+  background-image: url("img/subheadlogo.png!d");
+  background-size: cover;
+  height: 650px;
 }
-.form-group {
-  padding: 0;
+.cloud {
+  margin-top: 80px;
+  color: #fff;
+}
+.maintext {
+  font-size: 60px;
+  font-weight: 600;
+}
+.undermain {
+  font-size: 20px
+}
+/* LOG IN BAR */
+.action {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  margin-left: 20%;
+  padding: 15px;
+}
+.terms {
+  font-size: 12px;
+}
+.terms a {
+  text-decoration: underline;
+}
+/* Google */
+.google {
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/* GREY BUSSINES  */
+.grey {
+  padding: 60px 30px;
+  height: 300px;
+  background-color: #dddd;
+}
+.inovative {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bussines li {
+  display: inline;
+  padding: 30px 30px;
+}
+.bussines img {
+  height: 80px;
+  width: 150px;
+}
+.arrow {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0069ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.arrow:hover {
+  text-decoration: none;
+  color: blue;
 }

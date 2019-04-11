@@ -11,8 +11,8 @@
   <body>
     <header>
       <!-- NAVBAR -->
-      <nav class="navbar navbar-default navbar">
-        <div class="container">
+      <nav class="navbar navbar-default navbar navbar-fixed-top">
+        <div class="container-fluid">
           <div class="navbar-header">
             <img src="img/logonav.svg" class="bootlogo">
           </div>
@@ -24,8 +24,8 @@
               <li><a href="#">Community</a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right mt-10">
-              <button type="submit" class="btn btn-primary">Sign-Up</button>
+            <ul class="nav navbar-nav navbar-right mt-10 mr-20">
+              <a href="#" class="btn btn-info">Sign-Up</a>
             </ul>
         </div>
       </nav>
@@ -34,11 +34,11 @@
     <section class="blue">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 mt-20">
+          <div class="col-md-6 cloud">
             <h1 class="maintext">Welcome to the developer cloud</h1>
-            <p class="undermain">We make it simple to launch in the cloud and scale up as you grow-whether you're running one virtual machine or ten thousand.</p>
+            <p class="undermain mt-20">We make it simple to launch in the cloud and scale up as you grow-whether you're running one virtual machine or ten thousand.</p>
           </div>
-          <div class="col-md-6 mt-20">
+          <div class="col-md-6 mt-20 action">
             <form action="/action_page.php">
               <div class="form-group">
                 <label for="email">Email:</label>
@@ -51,8 +51,33 @@
               <div class="checkbox">
                 <label><input type="checkbox" name="remember"> Remember me</label>
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <div class="col-md-12 text-center">
+
+              </div>
+              <div class="signin mt-10 col-md-12 text-center">
+                <p class="terms">By signing up you agree to the <a href="#">Terms of Service.</a></p>
+              </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grey">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="inovative">Inovative Bussines Trust Digitalocean</h2>
+          </div>
+          <div class="col-md-12 text-center">
+            <ul class="bussines">
+              <li><img src="img/docker.png" alt=""></li>
+              <li><img src="img/gitlab.png" alt=""></li>
+              <li><img src="img/slack.png" alt=""></li>
+              <li><img src="img/hashicorp.png" alt=""></li>
+              <li><img src="img/wework.png" alt=""></li>
+              <li><img src="img/splunk.png" alt=""></li>
+            </ul>
+            <a href="#" class="arrow">View customer stories</a>
           </div>
         </div>
       </div>
